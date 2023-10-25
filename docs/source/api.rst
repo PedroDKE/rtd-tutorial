@@ -6,16 +6,16 @@ API
 .. toctree::
    :maxdepth: 2
 
-   main
-   utils.utils
+   API/main
+   API/utils.utils
 
-main
+API/main
 ====
 .. automodule:: main
    :members:
    :undoc-members:
 
-utils.utils
+API/utils.utils
 ============
 .. automodule:: utils.utils
    :members:
