@@ -9,6 +9,6 @@ that creates recipes mixing random ingredients.
    .. reference_lumache:
 
    lumache
-.. autoclass::
+.. automodule:: src
    :members:
    :undoc-members:
