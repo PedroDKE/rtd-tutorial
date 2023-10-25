@@ -39,3 +39,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+#autodoc thingies
+utodoc_typehints = "description"
+autodoc_member_order = "bysource"
