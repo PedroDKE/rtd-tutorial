@@ -2,6 +2,6 @@ API
 ===
 
    lumache
-.. automodule:: src
+.. automodule:: src.main
    :members:
    :undoc-members:
