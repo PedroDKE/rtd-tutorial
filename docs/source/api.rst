@@ -1,8 +1,12 @@
 API
 ===
-   lumache 8
+   lumache 9
 
 
 .. automodule:: main
+   :members:
+   :undoc-members:
+
+.. automodule:: utils.utils
    :members:
    :undoc-members:
