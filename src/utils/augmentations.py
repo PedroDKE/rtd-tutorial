@@ -9,33 +9,68 @@ from torchvision import transforms
 # https://openreview.net/pdf?id=bSC_xo8VQ1b
 # https://arxiv.org/pdf/2206.07656.pdf
 
-class GaussianNoise():
-    def __init__(self,mean=0,std=0.2):
+import numpy as np
+
+class GaussianNoise:
+    def __init__(self, mean=0, std=0.2):
         """
-        adds gaussion noise to the data
-        Args:
-            mean: mean value for the gaussion noise
-            std: standard deviation for the gaussian noise
+        Adds Gaussian noise to the data.
+
+        Parameters
+        ----------
+        mean : float, optional
+            Mean value for the Gaussian noise. Default is 0.
+        std : float, optional
+            Standard deviation for the Gaussian noise. Default is 0.2.
         """
-        self.mean=mean
+        self.mean = mean
         self.std = std
 
-    def __call__(self,x):
-        x_noise = x + torch.empty(x.shape).normal_(mean=self.mean,std=self.std)
+    def __call__(self, x):
+        """
+        Apply Gaussian noise to the input data.
+
+        Parameters
+        ----------
+        x : numpy.ndarray
+            Input data.
+
+        Returns
+        -------
+        numpy.ndarray
+            Noisy data after applying Gaussian noise.
+        """
+        x_noise = x + np.random.normal(loc=self.mean, scale=self.std, size=x.shape)
         return x_noise
 
 
-class HorizontalFlip():
+class HorizontalFlip:
     def __init__(self):
         """
-        flips data on horizontal axis
-        Args:
-            none
+        Flips data on the horizontal axis.
+
+        Parameters
+        ----------
+        None
         """
         pass
 
-    def __call__(self,x):
-        return x.flip(-1)
+    def __call__(self, x):
+        """
+        Apply horizontal flip to the input data.
+
+        Parameters
+        ----------
+        x : numpy.ndarray
+            Input data.
+
+        Returns
+        -------
+        numpy.ndarray
+            Flipped data along the horizontal axis.
+        """
+        return np.flip(x, axis=-1)
+
 
 
 class VerticalFlip():

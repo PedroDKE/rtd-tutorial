@@ -1,4 +1,4 @@
-utils
+augmentations
 =====
 
 .. automodule:: utils.augmentations
