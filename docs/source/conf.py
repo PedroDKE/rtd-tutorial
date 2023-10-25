@@ -8,9 +8,9 @@ sys.path.insert(0, os.path.abspath('../../src'))
 
 
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Documentation Test'
+copyright = '2023, Pedro'
+author = 'Pedro'
 
 release = '0.1'
 version = '0.1.0'
