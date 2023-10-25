@@ -1,6 +1,5 @@
 API
 ===
-   lumache 1
+   lumache 2
 .. automodule:: src.main
    :members:
-   :undoc-members:
