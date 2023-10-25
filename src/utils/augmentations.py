@@ -1,3 +1,9 @@
+"""
+augmentations.py
+====================================
+Module containing all augmentations for self-supervised learning
+"""
+
 import numpy as np
 import random
 import scipy
