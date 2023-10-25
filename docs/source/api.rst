@@ -5,6 +5,6 @@ API
 .. reference_main:
 
    main
-.. autoclass:: src.main
+.. autoclass:: ExampleClass
    :members:
    :undoc-members:
