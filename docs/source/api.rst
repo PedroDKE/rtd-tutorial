@@ -1,10 +1,9 @@
 API
 ===
-   lumache 5
+   lumache 7
 
-.. reference_main:
 
-   main
-.. automodule:: src
+.. module:: main
+.. autoclass:: ExampleClass
    :members:
    :undoc-members:
