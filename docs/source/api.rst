@@ -1,6 +1,6 @@
 API
 ===
-   lumache 9
+   lumache 10
 
 
 .. automodule:: main
