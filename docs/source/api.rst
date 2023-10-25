@@ -1,6 +1,6 @@
 API
 ===
-   lumache 3
+   lumache 4
 
 .. reference_main:
 
