@@ -6,4 +6,4 @@ API
 
    api/main
    api/utils
-   api.augmentations
+   api/augmentations
