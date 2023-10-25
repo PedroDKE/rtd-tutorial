@@ -1,6 +1,6 @@
 API
 ===
-   lumache 16
+   lumache 17
 
 
 .. automodule:: main
@@ -8,5 +8,5 @@ API
    :undoc-members:
 
 .. automodule:: utils.utils
-   :members: load_yaml_to_dict
+   :members:
    :undoc-members:
