@@ -1,6 +1,5 @@
 API
 ===
-
    lumache
 .. automodule:: src.main
    :members:
