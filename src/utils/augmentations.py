@@ -17,8 +17,7 @@ from torchvision import transforms
 
 class GaussianNoise:
     def __init__(self, mean=0, std=0.2):
-        """
-        Adds Gaussian noise to the data.
+        """ Adds Gaussian noise to the data.
 
         Parameters
         ----------
@@ -31,8 +30,7 @@ class GaussianNoise:
         self.std = std
 
     def __call__(self, x):
-        """
-        Apply Gaussian noise to the input data.
+        """ Apply Gaussian noise to the input data.
 
         Parameters
         ----------
