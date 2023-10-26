@@ -36,6 +36,7 @@ source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'markdown',
     '.md': 'markdown',
+    '.MD': 'markdown',
 }
 
 templates_path = ['_templates']
