@@ -1,9 +1,7 @@
 API
 ===
 
-.. toctree::
-   :maxdepth: 2
 
-   api/main
-   api/utils
-   api/augmentations
+.. autosummary::
+   :toctree: _autosummary
+   :recursive:
