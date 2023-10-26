@@ -2,6 +2,7 @@
 
 this file contains information on the encoders blah blah 2
 
+```{eval-rst}  
 .. toctree::
    :maxdepth: 2
 
@@ -9,3 +10,4 @@ this file contains information on the encoders blah blah 2
    :members:
    :undoc-members:
    :special-members: __init__,__call__
+```
