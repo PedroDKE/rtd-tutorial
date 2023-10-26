@@ -1,6 +1,6 @@
 # Encoders
 
-this file contains information on the encoders blah blah
+this file contains information on the encoders blah blah 2
 
 .. toctree::
    :maxdepth: 2
